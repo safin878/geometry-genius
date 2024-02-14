@@ -97,29 +97,29 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="text-3xl font-bold text-center">Rectangle</h2>
-              <p class="text-center">Area (A) = w X I</p>
+              <h2 class="text-3xl font-bold text-center">Parallelogram</h2>
+              <p class="text-center">Area (A) = b X h</p>
               <div class="flex items-center">
                 <input
-                  id="rectangle-width"
+                  id="parallelogram-base"
                   class="w-full text-2xl p-2 round"
                   type="text"
-                  placeholder="w"
+                  placeholder="b"
                 />
                 <span class="mr-4 ml-2">cm</span>
                 <input
-                id="rectangle-height"
+                id="parallelogram-height"
                   class="w-full text-2xl p-2 round"
                   type="text"
-                  placeholder="l"
+                  placeholder="h"
                 />
                 <span>cm</span>
               </div>
               <div>
-                <p class="text-2xl">Area: <span id="rectangle-area">0</span> <span>cm<sup>2</sup></span></p>
+                <p class="text-2xl">Area: <span id="parallelogram-area">0</span> <span>cm<sup>2</sup></span></p>
               </div>
               <div class="card-actions">
-                <button onclick="CalculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
@@ -132,29 +132,29 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="text-3xl font-bold text-center">Rectangle</h2>
-              <p class="text-center">Area (A) = w X I</p>
+              <h2 class="text-3xl font-bold text-center">Rhombus</h2>
+              <p class="text-center">Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
               <div class="flex items-center">
                 <input
-                  id="rectangle-width"
+                  id="rhombus-d1"
                   class="w-full text-2xl p-2 round"
                   type="text"
-                  placeholder="w"
+                  placeholder="d1"
                 />
                 <span class="mr-4 ml-2">cm</span>
                 <input
-                id="rectangle-height"
+                id="rhombus-d2"
                   class="w-full text-2xl p-2 round"
                   type="text"
-                  placeholder="l"
+                  placeholder="d2"
                 />
                 <span>cm</span>
               </div>
               <div>
-                <p class="text-2xl">Area: <span id="rectangle-area">0</span> <span>cm<sup>2</sup></span></p>
+                <p class="text-2xl">Area: <span id="rhombus-area">0</span> <span>cm<sup>2</sup></span></p>
               </div>
               <div class="card-actions">
-                <button onclick="CalculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="CalculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
@@ -238,5 +238,8 @@
     <main>
         <script src="./geometry-genius-resources/scripts/tringle.js"></script>
         <script src="./geometry-genius-resources/scripts/rectangle.js"></script>
+        <script src="./geometry-genius-resources/scripts/parallelogram.js"></script>
+        <script src="./geometry-genius-resources/scripts/rhombus.js"></script>
+        <script src="./geometry-genius-resources/scripts/shared-script.js"></script>
   </body>
 </html>

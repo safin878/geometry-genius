@@ -1,13 +1,13 @@
 function CalculateRectangleArea() {
   // get rectangle width value
   const widthInput = document.getElementById("rectangle-width");
-  const Widthtext = widthInput.value;
-  const width = parseFloat(Widthtext);
+  const WidthText = widthInput.value;
+  const width = parseFloat(WidthText);
   console.log(width);
   // get rectangle height value
   const heightInput = document.getElementById("rectangle-height");
-  const heighttext = heightInput.value;
-  const height = parseFloat(heighttext);
+  const heightText = heightInput.value;
+  const height = parseFloat(heightText);
   console.log(height);
   //   calculate rectangle area
   const area = width * height;
